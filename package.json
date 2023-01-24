@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "platformatic db start",
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@ruheni/db-diff": "^0.2.5",
+    "fastify": "^4.12.0",
+    "prisma": "^4.9.0"
+  },
+  "dependencies": {
+    "@platformatic/sql-graphql": "^0.13.1",
+    "@platformatic/sql-mapper": "^0.13.1",
+    "@prisma/client": "^4.9.0",
+    "@sabinthedev/fastify-prisma": "^1.0.23",
+    "@types/node": "^18.11.18",
+    "platformatic": "^0.13.1"
+  },
+  "engines": {
+    "node": "^16.17.0 || ^18.8.0 || >=19"
+  }
+}

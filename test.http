@@ -1,0 +1,4 @@
+PUT http://localhost:3042/recipes/1/rating
+Content-Type: application/json
+
+{ "rating": 4 }
